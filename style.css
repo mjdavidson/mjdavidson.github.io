@@ -1,0 +1,91 @@
+html {
+  background-color: #9bc99f;
+  height: 100%;
+}
+
+body {
+  font-family: "Biryani", sans-serif;
+  color: white;
+  height: 100%;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  position: relative;
+}
+
+.header h1 {
+  /* color: antiquewhite; */
+  font-weight: 200;
+  text-align: left;
+}
+
+.header ul {
+  list-style: none;
+}
+
+#header-img {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+.grid {
+  display: grid;
+  grid-template-rows: 40px auto;
+  margin-bottom: 50px;
+  grid-gap: 50px;
+}
+.travels {
+  grid-template-columns: 40fr 60fr;
+  text-align: right;
+}
+
+.hobbies {
+  grid-template-columns: 60fr 40fr;
+  text-align: left;
+}
+
+.projects1 {
+  grid-template-columns: 60fr 40fr;
+  text-align: left;
+  margin-bottom: 0;
+}
+.projects2 {
+  grid-template-columns: 40fr 60fr;
+  text-align: right;
+}
+
+.grid .header {
+  grid-row: 1;
+  grid-column: 1/-1;
+  /* text-align: center; */
+}
+
+.grid .copy,
+.grid .image {
+  grid-row: 2;
+}
+
+.hobbies img {
+  transform: scaleX(-1);
+}
+
+h3 span {
+  background: #000;
+}

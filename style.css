@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Biryani", sans-serif;
-  color: white;
+  color: black;
 }
 
 .container {
@@ -115,7 +115,7 @@ img.cover {
 
 h3 span,
 span.caption {
-  background: #000;
+  background: #white;
 }
 
 a {
@@ -124,7 +124,7 @@ a {
   transition: 0.2s;
 }
 a:visited {
-  color: white;
+  color: black;
 }
 a:hover {
   opacity: 0.8;

@@ -1,12 +1,10 @@
 html {
   background-color: #9bc99f;
-  height: 100%;
 }
 
 body {
   font-family: "Biryani", sans-serif;
   color: white;
-  height: 100%;
 }
 
 .container {
@@ -15,7 +13,10 @@ body {
   margin: 0 auto;
 }
 
-.header {
+.header,
+.church,
+.gratis,
+.family {
   text-align: center;
   position: relative;
 }
@@ -37,10 +38,11 @@ body {
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
-.bottom-left {
+.bottom-right {
   position: absolute;
   bottom: 8px;
   right: 8px;
@@ -51,6 +53,16 @@ img {
   margin-bottom: 50px;
   grid-gap: 50px;
 }
+
+.about {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about .copy {
+  grid-row: 2;
+  grid-column: 1/-1;
+}
+
 .travels {
   grid-template-columns: 40fr 60fr;
   text-align: right;
@@ -86,6 +98,21 @@ img {
   transform: scaleX(-1);
 }
 
-h3 span {
+h3 span,
+span.caption {
   background: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 20px;
+  }
+  .grid {
+    grid-gap: 10px;
+    grid-template-columns: auto;
+  }
+
+  .grid .image {
+    grid-row: 3;
+  }
 }

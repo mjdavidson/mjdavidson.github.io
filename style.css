@@ -51,7 +51,7 @@ img.cover {
 
 .images {
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto 300px 300px;
+  grid-template-rows: auto auto 300px;
 }
 
 .about {

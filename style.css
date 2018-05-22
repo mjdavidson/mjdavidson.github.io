@@ -23,7 +23,6 @@ body {
 }
 
 .header h1 {
-  /* color: antiquewhite; */
   font-weight: 200;
   text-align: left;
 }
@@ -101,7 +100,6 @@ img.cover {
 .grid .header {
   grid-row: 1;
   grid-column: 1/-1;
-  /* text-align: center; */
 }
 
 .grid .copy,
@@ -115,7 +113,7 @@ img.cover {
 
 h3 span,
 span.caption {
-  background: #white;
+  background: white;
 }
 
 a {

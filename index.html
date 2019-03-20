@@ -1,160 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-119667240-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119667240-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag('config', 'UA-119667240-1');
+    </script>
 
-    gtag('config', 'UA-119667240-1');
-  </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>matt d.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="style.css?v=1.5"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Biryani:200,700"
+      rel="stylesheet"
+    />
+    <meta name="theme-color" content="#9bc99f" />
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>matt d.</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="style.css?v=1.5" />
-  <link href="https://fonts.googleapis.com/css?family=Biryani:200,700" rel="stylesheet">
-  <meta name="theme-color" content="#9bc99f">
+    <meta
+      name="Description"
+      content="matt davidson's personal website - auckland // nz"
+    />
+    <link rel="shortcut icon" href="imgs/favicon.ico" />
 
-  <meta name="Description" content="matt davidson's personal website - auckland // nz">
-  <link rel="shortcut icon" href="imgs/favicon.ico" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <style>
+      html {
+        background-color: #9bc99f;
+      }
 
-  <link rel="icon" type="image/png" href="imgs/favicon.png" />
-  <style>
-    html {
-      background-color: #9bc99f;
-    }
+      body {
+        font-family: 'Biryani', sans-serif;
+        color: black;
+      }
+    </style>
+  </head>
 
-    body {
-      font-family: "Biryani", sans-serif;
-      color: black;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    <div class="header">
-      <h1>matt davidson.</h1>
-    </div>
-
-    <div class="tag grid">
-      <div class="about">
-        hi, i'm matt. i like to make great software.
-      </div>
-      <div class="header-img">
-        <img class="cover" data-src="/imgs/matt1.jpg" alt="Matt">
-        <div class="bottom-right">
-          <span class="caption">me at washington square park</span>
-        </div>
-      </div>
-
-    </div>
-    <div class="projects1 grid">
+  <body>
+    <div class="container">
       <div class="header">
+        <h1>matt davidson.</h1>
+      </div>
+
+      <div class="tag grid">
+        <div class="about">
+          hi, i'm matt. i make great software.
+        </div>
+        <div class="header-img">
+          <img class="cover" data-src="/imgs/matt1.jpg" alt="Matt" />
+          <div class="bottom-right">
+            <span class="caption">me at washington square park</span>
+          </div>
+        </div>
+      </div>
+      <div class="projects1 grid">
+        <div class="header">
+          <h3>
+            <span>projects.</span>
+          </h3>
+        </div>
+        <div class="image">
+          <a href="https://waka.app" target="_blank" rel="noopener noreferrer">
+            <img data-src="/imgs/waka.png" alt="this is me waka" />
+          </a>
+        </div>
+        <div class="copy">
+          <h4>
+            <a href="https://waka.app" target="_blank" rel="noopener noreferrer"
+              >waka</a
+            >
+          </h4>
+          <p>
+            i like public transport (!) so it seemed fitting for me to be a part
+            of making an app to help aucklanders find their way around the city.
+            the app is called waka. this was my first time getting stuck into
+            any sort of webdev. using react, node and sql server we made waka
+            into an easy-to-use, user-friendly app. i got my hands dirty
+            building in a feature that shows live bus tracking and bike-share
+            locations, and also building the mapping server.
+          </p>
+        </div>
+      </div>
+      <div class="projects2 grid">
+        <div class="copy">
+          <h4>
+            <a
+              href="https://isasure.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >ISAsure</a
+            >
+          </h4>
+          <p>
+            i currently work at a transport consultancy in north sydney. i've
+            created a safety assurance application, that transformed a
+            paper-based process into a fully automated and database driven
+            workflow. i worked closely in a team of 2, including me and a
+            product manager. i used the latest javascript syntax, but had the
+            challenge of having to support legacy browsers on government
+            computers.
+          </p>
+        </div>
+        <div class="image">
+          <a
+            href="https://isasure.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img data-src="/imgs/isasure.png" alt="this is me isasure" />
+          </a>
+        </div>
+      </div>
+      <div class="projects3 grid">
+        <div class="image">
+          <a
+            href="https://narrative.so"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img data-src="/imgs/narrative.png" alt="this is me narrative" />
+          </a>
+        </div>
+        <div class="copy">
+          <h4>
+            <a
+              href="https://narrative.so"
+              target="_blank"
+              rel="noopener noreferrer"
+              >narrative</a
+            >
+          </h4>
+          <p>
+            previously i worked at a small start up in auckland. our
+            three-person team made an app called narrative that helps
+            photographers easily build blog layouts. i created the
+            <a
+              href="https://narrative.so"
+              target="_blank"
+              rel="noopener noreferrer"
+              >main website</a
+            >, the
+            <a
+              href="https://my.narrative.so"
+              target="_blank"
+              rel="noopener noreferrer"
+              >subscription management page</a
+            >
+            and a bunch of other internal tools that the team uses every day,
+            including an administration portal for managing existing customers.
+            as well as increasing my knowledge of javascript and react, this
+            experience is honing my coding and communication skills.
+          </p>
+        </div>
+      </div>
+      <div class="images grid">
+        <div class="header">
+          <h3>
+            <span>about me.</span>
+          </h3>
+        </div>
+        <div class="copy" style="max-width: 75%; margin: 0 auto;">
+          <p>
+            i'm curious, passionate, and driven to learn and make things happen.
+          </p>
+          <p>
+            software engineering is the ideal space for me to grow these
+            qualities while learning more about myself.
+          </p>
+          <p>
+            i love to code, especially with the latest technologies, and am
+            excited to get experience in different parts of the trade. i have a
+            knack for leading and managing teams, and forsee this as a big part
+            of my career in future.
+          </p>
+          <p>
+            as well as getting involved in side software-related projects, i
+            lead a busy, fulfilling non-work life in my local community.
+          </p>
+          <p>
+            i help run
+            <a
+              href="https://gratisfreestore.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              >gratis</a
+            >, the auckland free store on karangahape road. we collect quality
+            unused food from local eateries and distribute it to those in need
+            twice a week. i'm also pretty big on travelling, enjoy cycling,
+            running, and bouldering, and am fluent in french.
+          </p>
+        </div>
+
+        <div class="gratis">
+          <img class="cover" data-src="/imgs/gratis.jpg" alt="" />
+          <div class="bottom-right">
+            <span class="caption">gratis</span>
+          </div>
+        </div>
+        <div class="family">
+          <img class="cover" data-src="/imgs/family.jpg" alt="" />
+          <div class="bottom-right">
+            <span class="caption">family</span>
+          </div>
+        </div>
+        <div class="cycling">
+          <img
+            class="cover"
+            data-src="/imgs/cycling.JPG"
+            alt="this is me cycling"
+          />
+          <div class="bottom-right">
+            <span class="caption">cycling</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
         <h3>
-          <span>projects.</span>
+          <span>contact me</span>
         </h3>
-      </div>
-      <div class="image">
-        <a href="https://getwaka.com" target="_blank" rel="noopener noreferrer">
-          <img data-src="/imgs/waka.png" alt="this is me waka">
-        </a>
-      </div>
-      <div class="copy">
-        <h4>
-          <a href="https://getwaka.com" target="_blank" rel="noopener noreferrer">waka</a>
-        </h4>
-        <p>i like public transport (!) so it seemed fitting for me to be a part of making an app to help aucklanders find their
-          way around the city. the app is called waka. this was my first time getting stuck into any sort of webdev. using
-          react, node and sql server we made waka into an easy-to-use, user-friendly app. i got my hands dirty building in
-          a feature that shows live bus tracking and bike-share locations, and also building the mapping server. i'm looking
-          to add sydney and melbourne in the future.</p>
 
+        <h5>email</h5>
+        matt [at] mattdavidson [dot] kiwi
+        <span role="img" aria-label="kiwi">🥝</span>
+        <h5>github</h5>
+        <a
+          href="http://github.com/mjdavidson/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >@mjdavidson</a
+        >
       </div>
     </div>
-    <div class="projects2 grid">
-      <div class="copy">
-        <h4>
-          <a href="https://narrative.so" target="_blank" rel="noopener noreferrer">narrative</a>
-        </h4>
-        <p>currently i'm working at a small start up in auckland. our three-person team made an app called narrative that helps
-          photographers easily build blog layouts. i created the
-          <a href="https://narrative.so" target="_blank" rel="noopener noreferrer">main website</a>, the
-          <a href="https://my.narrative.so" target="_blank" rel="noopener noreferrer">subscription management page</a> and a bunch of other internal tools that the team uses every day, including an
-          administration portal for managing existing customers. as well as increasing my knowledge of javascript and react,
-          this experience is honing my coding and communication skills.</p>
-      </div>
-      <div class="image">
-        <a href="https://narrative.so" target="_blank" rel="noopener noreferrer">
-          <img data-src="/imgs/narrative.png" alt="this is me narrative">
-        </a>
-      </div>
-    </div>
-    <div class="images grid">
-      <div class="header">
-        <h3>
-          <span>about me.</span>
-        </h3>
-      </div>
-      <div class="copy" style="max-width: 75%; margin: 0 auto;">
-        <p>i'm curious, passionate, and driven to learn and make things happen.</p>
-        <p>software engineering is the ideal space for me to grow these qualities while learning more about myself.</p>
-        <p>i love to code, especially with the latest technologies, and am excited to get experience in different parts of the
-          trade. i have a knack for leading and managing teams, and forsee this as a big part of my career in future.</p>
-        <p>as well as getting involved in side software-related projects, i lead a busy, fulfilling non-work life in my local
-          community.
-        </p>
-        <p>i help run
-          <a href="https://gratisfreestore.org" target="_blank" rel="noopener noreferrer">gratis</a>, the auckland free store on karangahape road. we collect quality unused food from local eateries and
-          distribute it to those in need twice a week. i'm also pretty big on travelling, enjoy cycling and running, and
-          am fluent in french.</p>
-      </div>
 
-      <div class="gratis">
-        <img class="cover" data-src="/imgs/gratis.jpg" alt="">
-        <div class="bottom-right">
-          <span class="caption">gratis</span>
-        </div>
-      </div>
-      <div class="family">
-        <img class="cover" data-src="/imgs/family.jpg" alt="">
-        <div class="bottom-right">
-          <span class="caption">family</span>
-        </div>
-      </div>
-      <div class="cycling">
-        <img class="cover" data-src="/imgs/cycling.JPG" alt="this is me cycling">
-        <div class="bottom-right">
-          <span class="caption">cycling</span>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="footer">
-      <h3>
-        <span>contact me</span>
-      </h3>
-
-      <h5>email</h5>
-      matt [at] mattdavidson [dot] kiwi
-      <span role="img" aria-label="kiwi">🥝</span>
-      <h5>github</h5>
-      <a href="http://github.com/mjdavidson/" target="_blank" rel="noopener noreferrer">@mjdavidson</a>
-      <h5>post</h5>
-      po box 6010 wellesley st auckland 1141 new zealand
-    </div>
-  </div>
-
-  <script src="../dist/lazyload.min.js"></script>
-  <script>
-    new LazyLoad();
-  </script>
-</body>
-
+    <script src="../dist/lazyload.min.js"></script>
+    <script>
+      new LazyLoad();
+    </script>
+  </body>
 </html>

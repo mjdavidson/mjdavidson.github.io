@@ -89,6 +89,10 @@ img.cover {
   grid-template-columns: 40fr 60fr;
   text-align: right;
 }
+.projects3 {
+  grid-template-columns: 60fr 40fr;
+  text-align: left;
+}
 
 .grid .header {
   grid-row: 1;
